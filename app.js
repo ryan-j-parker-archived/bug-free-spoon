@@ -1,4 +1,17 @@
 const smallOne = document.getElementById('small1');
+const bigBox = document.getElementById('big-box');
+const smallTwo = document.getElementById('small2');
+
+small2.addEventListener('click', () => {
+    
+});
+
+bigBox.addEventListener('click', () => {
+    const div = document.createElement('div');
+    div.textContent = 'ha! fuck u boyo u don get 2 no lolol';
+    div.classList.add('visible-on-click');
+});
+
 
 let getGoodText = [
 `function getGood(student, school) {
